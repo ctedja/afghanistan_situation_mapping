@@ -1,0 +1,278 @@
+body, h1, h2, h3, h4 {
+    font-family: "Open Sans", Sans-Serif;
+}
+body {
+    color: #031c2d;
+    background-color: #2f2f2f;
+    padding-left: 0px;
+    padding-top: 52px;
+}
+h1 {
+    font-size: 30px;
+    color: #0074AC;
+}
+h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+h3 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+h4 {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+a, a:hover {
+    color: #0074AC;
+}
+pre {
+    font-size: 10px;
+}
+a {
+  color: #9ECBCC;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4f4f4f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6f6f6f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7f7f7f;
+}
+.homepage /*Homepage that also prevents scroll*/{
+  background-image: url('gfa_massoud_hossaini.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0;
+  position: fixed; 
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+}
+.bgblack {
+  background: #2f2f2f;
+  border-color: #595959;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-top: 12px;
+}
+.bgfaded {
+  background: #923750;
+  color: #FFFFFF;
+  font-size: 10px;
+  opacity: 0.8;
+}
+.bgtitle {
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  font-size: 10px;
+  letter-spacing: 4px;
+}
+.bgtransparent {
+  background: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 10px;
+  opacity: 0;
+  border: 0px;
+}
+.bgbox {
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+.columntext{    
+  overflow: auto;
+  margin-right: 16px;
+  padding-right: 16px;
+  background: #2f2f2f;
+  border-color: #595959;
+  color: #FFFFFF;
+  font-size: 11px;
+  margin-top: 12px;
+}
+.nav-tabs-custom > .nav-tabs /*Tabset heading background*/{
+    margin: 0;
+    border-bottom: 1px solid #7f7f7f;
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background: #2f2f2f;
+    white-space:nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+.nav-tabs-custom > .nav-tabs > li.active /*Tabset active*/{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    /*Keep an eye on this bit, it's weird*/
+    border-top: 4px;
+    border-top-color: #FFF;
+    border-bottom-color: #2f2f2f;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a /*Active tabset when you hover over it*/{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    border-top-color: #FFF;
+    border-bottom-color: #2f2f2f;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a:hover /*Active tabset when you hover over it*/{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+}
+.nav-tabs-custom > .nav-tabs > li > a:active /*Unselected tabset when you actually click it*/{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    font-size: 12px;
+}
+.nav-tabs-custom > .nav-tabs > li > a:hover /*Unselected tabset when you hover over it*/{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    font-size: 12px;
+}
+.nav-tabs-custom > .nav-tabs > li > a /*Tabset base*/{
+    color: #9f9f9f;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 4px;
+    border-radius: 0;
+    padding: 3px 10px 5px;
+    text-transform: none;
+}
+.chart-wrapper, .nav-tabs-custom, .sbframe-commentary /*Tabset exterior box*/{
+    background: #fff;
+    border: 1px solid #7f7f7f;
+    border-radius: 1px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    margin-left: 16px;
+    background: #2f2f2f;
+}
+.chart-wrapper .chart-stage /*Tabset interior box*/{
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background: #2f2f2f;
+}
+.js-plotly-plot .plotly .cursor-crosshair {
+cursor: pointer;
+}
+.leaflet-container .leaflet-control-attribution /*Map attribution*/{
+    background: rgba(0, 0, 0, 0);
+    color: #808080;
+    margin: 0;
+}
+.dashboard-row-orientation {
+    margin-right: 10px;
+}
+.chart-title {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 4px;  
+  padding: 6px 0px 6px;
+}
+.navbar-brand /*Title*/{
+    font-size: 0px;
+    letter-spacing: 4px;
+    margin: 0px;
+}
+.navbar-nav {
+    font-size: 12px;
+    padding-left: 10px;
+    letter-spacing: 4px;
+}
+.value-box {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    background: #5F5F5F;
+}
+.value-box .icon i{
+    color: #FFFFFF; 
+    font-size: 36px;
+}
+.value-box .value {
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.value-box .caption {
+    font-size: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.chart-wrapper /*chart_box*/{
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    border: 0px;
+}
+.chart-wrapper .chart-stage /*chart_inside*/{
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.info /*legends*/{
+    padding: 6px 8px;
+    color: #FFFFFF;
+    font-size: 8px;
+    color: white;
+    background: rgba(95, 95, 95, 0.6);
+    border-radius: 5px;
+}
+.leaflet-control-layers-expanded /*layer_control*/{
+    padding: 6px 10px 6px 6px;
+    color: #fff;
+    background: rgba(95, 95, 95, 0.6);
+    font-size: 12px;
+}
+.bootstrap-table table > thead /*DT header*/{
+    background-color: #0000;
+    color: #FFFFFF;
+}
+.bootstrap-table table /*DT*/{
+    background-color: #0000;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+div.dataTables_wrapper div.dataTables_filter label /*DT searchbar*/{
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #0074AC;
+    border-color: #0074AC;
+}
+.blackbox {
+  padding: 1em;
+  background: #C0DCDC;
+  color: #3F3F3F;
+  font-size: 16px
+}
+.center {
+  text-align: center;
+}
